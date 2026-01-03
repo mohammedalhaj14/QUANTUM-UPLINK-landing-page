@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS.OS | Quantum Workspace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="matrix-bg" id="matrix"></div>
+
+    <nav class="quantum-nav">
+        <div class="container flex-nav">
+            <div class="brand">NEXUS<span>.OS</span></div>
+            <div class="nav-links">
+                <a href="#hero">Core</a>
+                <a href="#features">Protocols</a>
+                <a href="#terminal">Uplink</a>
+                <a href="https://wa.me/96176724176" class="btn-neon" target="_blank">Direct Line</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-main">
+                    <div class="glitch-tag">System Status: Optimal</div>
+                    <h1 class="gradient-text">Beyond limits.<br>Beyond human.</h1>
+                    <p>Experience the future of zero-latency collaboration. Self-optimizing analytics and quantum-grade security.</p>
+                    <div class="hero-btns">
+                        <a href="#terminal" class="btn-glow">Initialize Link</a>
+                        <a href="#features" class="btn-outline">View Protocols</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="orb-container">
+                        <div class="orb"></div>
+                        <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=800&q=80" alt="Cyber Visual">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Operational <span>Protocols</span></h2>
+            <div class="protocol-grid">
+                <div class="protocol-card">
+                    <div class="p-num">01</div>
+                    <i class="fas fa-microchip"></i>
+                    <h3>NeuralSync</h3>
+                    <p>Real-time transmitter compatibility with self-correcting data streams.</p>
+                </div>
+                <div class="protocol-card">
+                    <div class="p-num">02</div>
+                    <i class="fas fa-brain"></i>
+                    <h3>Aura AI</h3>
+                    <p>Predictive task detection powered by our sentinel intelligence engine.</p>
+                </div>
+                <div class="protocol-card">
+                    <div class="p-num">03</div>
+                    <i class="fas fa-cube"></i>
+                    <h3>DataCube</h3>
+                    <p>Quantum-resistant storage shards distributed across 12 global regions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="terminal" class="terminal-section">
+        <div class="container">
+            <h2 class="section-title">Command <span>Uplink</span></h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="dots"><span></span><span></span><span></span></div>
+                    <div class="title">nexus_terminal — v4.7.3 — contact_mode</div>
+                </div>
+                <div class="terminal-body" id="terminalBody">
+                    <div class="line">>> System initialized.</div>
+                    <div class="line">>> Establishing secure handshake...</div>
+                    <div class="line">>> [System]: Identification required. Please enter your name.</div>
+                    <div class="line active-line">
+                        <span class="prompt">user@nexus:~$</span>
+                        <input type="text" id="terminalInput" autofocus spellcheck="false" autocomplete="off">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-box">
+            <p>&copy; 2026 NEXUS OS. All rights reserved. | <a href="#">Security Protocols</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
